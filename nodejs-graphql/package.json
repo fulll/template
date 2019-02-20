@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Didier Franc",
+    "email": "didierfranc@me.com"
+  },
+  "private": true,
+  "scripts": {
+    "start": "dev=true && sls offline start --port 3001 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-schema-linter": "^0.2.0",
+    "graphql-tools": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "serverless": "^1.35.1",
+    "serverless-offline": "^3.31.3"
+  },
+  "name": "superApp"
+}
